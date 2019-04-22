@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="6" id="com.clearcosthealth.debug" version="0.0.1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="1" id="com.ionic.debug" version="0.0.1">
     <name>Debug</name>
     <description>v3SideMenu iOS12.2 Bug</description>
-    <author email="buildagent@clearcosthealth.com" href="http://meltingpointmobile.com/">Mazonson &amp; Santas, LLC</author>
+    <author email="spamaway@aol.com" href="https://github.com/JoeMeeks">Joe Meeks</author>
     <content src="index.html"/>
     <access origin="*"/>
     <allow-navigation href="http://*/*"/>
