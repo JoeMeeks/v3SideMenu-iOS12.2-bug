@@ -9,7 +9,6 @@
 # Files created during Angular build process - only commit files that aren't generated
 src/**/*.js
 src/**/*.js.map
-src/**/app.config.ts
 src/cordova.js
 src/service-worker.js
 !src/app/**/*.config.js
