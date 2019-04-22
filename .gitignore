@@ -10,8 +10,8 @@
 src/**/*.js
 src/**/*.js.map
 src/**/app.config.ts
-!src/app/**/cordova.js
-!src/app/**/service-worker.js
+src/cordova.js
+src/service-worker.js
 !src/app/**/*.config.js
 src/app/**/app.config.js
 src/app/**/release.json
@@ -92,5 +92,4 @@ plugins/
 plugins/android.json
 plugins/ios.json
 www/
-/resources
-/package-lock.json
+package-lock.json
