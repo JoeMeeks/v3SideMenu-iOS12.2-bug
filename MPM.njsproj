@@ -25,7 +25,6 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
     <Content Include="config.xml" />
     <Content Include="ionic.config.json" />
