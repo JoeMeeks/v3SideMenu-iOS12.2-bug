@@ -19,3 +19,5 @@ Once the home page is stuck and unscrollable, opening the side menu and selectin
 - Uncommenting src/theme/default.scss line 43 will fix this behavior for iOS 12.2
 
   ```/*ion-app.platform-ios12 ion-content { pointer-events: auto; }*/ /*fix scroll lock on ios12.2*/```
+
+![reproduction](img/v3-sidemenu-bug.gif)

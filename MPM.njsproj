@@ -127,12 +127,11 @@
     <Content Include="tsconfig.json" />
     <Content Include="tslint.json" />
     <Content Include="README.md" />
-    <Content Include="img\ide.png" />
-    <Content Include="img\npm.png" />
     <Content Include="src\index.html" />
     <Content Include="src\manifest.json" />
     <Compile Include="src\cordova.js" />
     <Compile Include="src\service-worker.js" />
+    <Content Include="img\v3-sidemenu-bug.gif" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\declarations.d.ts" />
