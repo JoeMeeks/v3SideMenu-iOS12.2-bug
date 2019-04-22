@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>ADHOC</title>
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta http-equiv="Content-Security-Policy" content="default-src * ; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *; style-src 'self' 'unsafe-inline' *; media-src *; img-src * 'self' blob: data: file: http: https:; frame-src http: https: blob: data: file: gap: cdvfile:; object-src http: https: blob: data: file: ionic:; connect-src *; font-src data: file: http: https: ionic: *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4e8ef7">
+    <meta property="og:site_name" content="Ionic Debug">
+    <meta property="og:title" content="Ionic Debug">
+    <meta property="og:type" content="website">
+
+    <!-- cordova.js required for cordova apps -->
+    <script src="cordova.js"></script>
+    <!--<script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="build/main.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Ionic's root component and where the app will load -->
+    <ion-app></ion-app>
+    <!-- The polyfills js is generated during the build process -->
+    <script src="build/polyfills.js"></script>
+    <!-- The vendor js is generated during the build process and includes all files in the node_modules directory -->
+    <script src="build/vendor.js"></script>
+    <!-- The bundle js is generated during the build process -->
+    <script src="build/main.js"></script>
+    <noscript>
+        <div style="background-image: url(assets/images/backgrounds/body.svg); height: 100vh;">
+            <div style="font-family: 'Open Sans', Arial, Helvetica, Verdana, sans-serif; max-width: 600px; margin: 40px auto; background-color: #fff; padding: 10px 20px 10px 20px; border-radius: 2px; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);">
+                <h1>Javascript Disabled</h1>
+                <p style="font-size: 18px;">
+                    To use ADHOC please enable javascript.
+                </p>
+            </div>
+        </div>
+    </noscript>
+</body>
+</html>

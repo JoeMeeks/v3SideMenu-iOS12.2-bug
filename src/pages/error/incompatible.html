@@ -1,0 +1,33 @@
+﻿<ion-header>
+    <ion-navbar [hideBackButton]="true">
+        <ion-buttons left>
+            <button ion-button clear class="logo" (click)="ui.back('home')"></button>
+        </ion-buttons>
+        <ion-buttons right>
+            <button ion-button clear no-padding (click)="help.show()" color="neutral" class="help">HELP?</button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-lg-8 col-md-8 col-sm-12 push-lg-2 push-md-2 style="margin-top: 35px;">
+                <ion-card style="padding-top: 50px; padding-bottom: 100px;">
+                    <div class="error-symbol-container">
+                        <img src="assets/images/icons/error-symbol.svg" alt="" style="max-width: 168px;" />
+                    </div>
+                    <div class="error-info">
+                        <p>We do not currently support Internet Explorer 11 on Windows 8 and higher.</p>
+                        <p>We recommend using Google Chrome or Mozilla Firefox instead.</p>
+                        <p class="small">If you have not already downloaded one of these browsers,<br />you can click on the links below to get started:</p>
+                        <div class="downloads">
+                            <a href="https://www.google.com/chrome/" class="chrome">Download now</a>
+                            <a href="https://www.mozilla.org/en-US/firefox/new/" class="firefox">Download now</a>
+                        </div>
+                        <p>If you need assistance feel free to call us at (855) 383-0735</p>
+                    </div>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

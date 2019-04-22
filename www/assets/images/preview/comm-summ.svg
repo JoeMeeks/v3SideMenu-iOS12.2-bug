@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="249px" height="249px" viewBox="0 0 249 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>EDDB5AD1-334A-4B4D-A7E6-A49E9437078F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-35.7%" y="-34.5%" width="171.3%" height="171.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.850980392   0 0 0 0 0.882352941   0 0 0 0 0.929411765  0 0 0 0.52 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="85.5" cy="85.5" r="85.5"></circle>
+        <path d="M4.77358491,25.5618557 L213.258899,25.5618557 C215.895277,25.5618557 218.032484,27.6990624 218.032484,30.3354406 L218.032484,181.44777 C218.032484,184.081948 215.897061,186.21737 213.262884,186.21737 L4.7696,186.21737 C2.13542266,186.21737 2.53000829e-14,184.081948 9.76996262e-15,181.44777 L-8.8817842e-16,30.3354406 C-1.21104163e-15,27.6990624 2.13720676,25.5618557 4.77358491,25.5618557 Z" id="path-4"></path>
+        <filter x="-5.3%" y="-5.9%" width="110.5%" height="114.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.878431373   0 0 0 0 0.894117647   0 0 0 0 0.909803922  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-56.4%" y="-61.7%" width="212.7%" height="231.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.227577299   0 0 0 0 0.469889391   0 0 0 0 0.561171344  0 0 0 0.328323143 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="IntroToCommunityFeatures" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="newCRF02" transform="translate(-595.000000, -199.000000)">
+            <g id="community-summary-card" filter="url(#filter-1)" transform="translate(634.000000, 236.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-2"></use>
+                <g mask="url(#mask-3)">
+                    <g transform="translate(-17.628866, -12.340206)">
+                        <g id="Rectangle" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <path d="M4.7696,0 L213.262884,8.8817842e-16 C215.897061,-1.59730484e-14 218.032484,2.13542266 218.032484,4.7696 L218.032484,186.21737 L0,186.21737 L0,4.7696 C-3.22593685e-16,2.13542266 2.13542266,-3.95700157e-15 4.7696,-4.4408921e-15 Z" id="Rectangle" fill="#D1EBFA" fill-rule="evenodd"></path>
+                        <g id="pie-copy" filter="url(#filter-6)" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(147.801294, 73.977923) rotate(-21.000000) translate(-147.801294, -73.977923) translate(120.301294, 50.477923)">
+                            <ellipse id="Oval-18" fill="#A33FB9" cx="23.9406042" cy="22.972965" rx="22.9218551" ry="22.9534491"></ellipse>
+                            <path d="M13.3251317,34.6564467 C28.0638362,34.6564467 35.4331884,34.6564467 35.4331884,34.6564467 C35.4331884,21.9796069 25.1707243,11.7029977 12.5113333,11.7029977 C-0.148057682,11.7029977 -10.4105218,21.9796069 -10.4105218,34.6564467 C-10.4105218,34.6564467 -2.4986373,34.6564467 13.3251317,34.6564467 Z" id="Oval-18-Copy" fill="#5DC499" transform="translate(12.511333, 23.179722) rotate(269.000000) translate(-12.511333, -23.179722) "></path>
+                            <path d="M24.0412804,22.972965 C39.2850314,21.1053395 46.8399908,20.1715268 46.7061587,20.1715268 C45.2732316,9.764754 37.1541481,0.019515976 23.4312297,0.019515976 C23.4312297,0.019515976 23.6345799,7.67066566 24.0412804,22.972965 Z" id="Oval-18-Copy-2" fill="#1976D2"></path>
+                            <path d="M27.832912,29.3968299 C43.0899003,27.5972334 50.6474076,26.6974352 50.5054337,26.6974352 C49.4379069,16.5151405 42.0458034,9.56242054 33.5484291,7.07712943 C33.5484291,7.07712943 31.6432567,14.5170296 27.832912,29.3968299 Z" id="Oval-18-Copy-3" fill="#1AABE2" transform="translate(39.170155, 18.236980) rotate(387.000000) translate(-39.170155, -18.236980) "></path>
+                        </g>
+                        <g id="barCharttech-Copy" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(43.190722, 66.989691)" opacity="0.87669837">
+                            <g id="Group-8">
+                                <rect id="Rectangle-33-Copy-18" fill="#1976D2" x="46.9508303" y="6.33353471" width="18.5332225" height="71.7320787"></rect>
+                                <rect id="Rectangle-33-Copy-2" fill="#01A2DF" x="-1.98951966e-13" y="29.5564953" width="18.5332225" height="48.5570994"></rect>
+                                <rect id="Rectangle-33-Copy-10" fill="#4EBF8B" x="23.4754152" y="-3.41060513e-13" width="18.5332225" height="78.3535013"></rect>
+                                <rect id="Rectangle-33-Copy-17" fill="#9C27B0" x="70.4262455" y="54.8906341" width="18.5332225" height="23.1749793"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "app.config": [
+                "src/config/app.config.ts"
+            ]
+        }
+    },
+    "include": [
+        "src/app/*.ts",
+        "src/config/app.config.ts",
+        "src/components/**/*.ts",
+        "src/directives/identikon.ts",
+        "src/directives/inputmask.ts",
+        "src/directives/markdown.ts",
+        "src/directives/svgimg.ts",
+        "src/pages/**/*.ts",
+        "src/pipes/*.ts",
+        "src/providers/*.ts",
+        "src/typings/**/*.ts",
+        "src/validators/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": false,
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}

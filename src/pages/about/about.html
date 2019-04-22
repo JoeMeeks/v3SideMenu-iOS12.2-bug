@@ -1,0 +1,40 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>About Us</ion-title>
+        <ion-buttons right>
+            <button ion-button icon-only menuToggle><ion-icon name="menu"></ion-icon></button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-12>
+                <ion-card>
+                    <ion-card-content>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed libero ultricies, efficitur urna vitae, imperdiet purus. Integer accumsan ex risus, et eleifend dui hendrerit nec. Aenean tellus augue, malesuada at velit ultricies, malesuada fermentum mi. Vestibulum placerat dignissim leo, nec tempus felis porta quis. Aliquam nec mollis risus. Maecenas libero dolor, eleifend ac vehicula in, mattis quis diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus id feugiat enim. Integer tincidunt efficitur tristique. Sed sed scelerisque sapien, sit amet luctus magna. Nulla vulputate blandit est non scelerisque. Donec volutpat in ligula eget tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                        <p>
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque ac ipsum porta, laoreet augue quis, scelerisque lectus. Curabitur vel risus id orci dignissim fringilla a non mi. Vivamus in varius enim. Morbi commodo feugiat egestas. Integer nisi felis, porttitor sed porttitor eu, ultrices auctor lacus. Praesent vehicula, sem ac sodales aliquam, sem magna consectetur elit, sed varius justo neque at leo. Nunc viverra mi ligula, in rutrum nunc fermentum ut. Curabitur in imperdiet dui. In pellentesque laoreet massa, eget finibus orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        </p>
+                        <p>
+                            Sed viverra hendrerit turpis sit amet pulvinar. Morbi hendrerit pellentesque fermentum. Suspendisse a feugiat tortor, vestibulum auctor neque. Etiam feugiat sapien et risus sodales, nec dignissim nibh consequat. Vivamus consectetur id magna eu ullamcorper. Aenean neque ante, pellentesque at egestas eu, rhoncus non neque. Nunc mattis arcu eget risus elementum, et laoreet felis commodo. Ut a porta dui. Suspendisse potenti. Sed sed pulvinar nisi, eget bibendum libero. Maecenas arcu arcu, rhoncus quis vulputate a, tincidunt quis eros.
+                        </p>
+                        <p>
+                            Suspendisse potenti. Phasellus eget fringilla tortor, in lacinia neque. Integer tincidunt tortor sit amet erat consectetur vestibulum. Pellentesque eleifend pharetra ligula id rhoncus. Ut ipsum sem, rutrum pellentesque dui ut, tincidunt tincidunt arcu. Sed dui mi, laoreet scelerisque ullamcorper non, mattis ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                        <p>
+                            Vestibulum at nibh ac ligula ullamcorper molestie. Vivamus molestie et diam sed rhoncus. Nullam quis quam leo. Pellentesque iaculis ipsum mi, eget euismod ligula tincidunt quis. Integer at ornare sapien, nec finibus lectus. Nulla hendrerit finibus nisi ac commodo. Nullam id odio orci. Aliquam erat volutpat. Morbi mattis ullamcorper accumsan. In posuere lacus congue ornare venenatis.
+                        </p>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <footer>
+        <button ion-button clear color="medium" type="button" (click)="ui.slide('privacy')">Privacy Policy</button>
+        <div class="version-info">Release {{release}}</div>
+        <div *ngIf="build" class="version-info">Build {{build}}</div>
+    </footer>
+</ion-content>

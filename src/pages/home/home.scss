@@ -1,0 +1,135 @@
+@import "../../theme/colors";
+
+page-home {
+    ion-header ion-grid { max-width: none; }
+    ion-header.header-md::after { display: none; }
+    ion-header.header-md.shadow::after { display: block; left: 0; bottom: -5px; background-position: left 0 top -2px; position: absolute; width: 100%; height: 5px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHBAMAAADzDtBxAAAAD1BMVEUAAAAAAAAAAAAAAAAAAABPDueNAAAABXRSTlMUCS0gBIh/TXEAAAAaSURBVAjXYxCEAgY4UIICBmMogMsgFLtAAQCNSwXZKOdPxgAAAABJRU5ErkJggg==); background-repeat: repeat-x; content: ""; }
+        ion-header .help { margin: 0 10px; font-family: "Open Sans"; font-size: 20px; font-weight: bold; line-height: 24px; }
+    ion-navbar.toolbar-md { background: transparent; }
+    .toolbar-background-md { background: transparent; border: none; }
+
+    .content header h1 { color: $white; font-family: "Open Sans"; font-size: 36px; font-weight: bold; letter-spacing: 1px; }
+    .content header { position: relative; height: 164px; background: url(../assets/images/backgrounds/header@3x.png) no-repeat right bottom; background-size: cover; overflow: hidden; }
+    .content header h1 { margin-left: 16px; color: $white; }
+
+    .content .scroll-content > .grid { margin-top: 0; }
+    .content .scroll-content > .grid > .row > .col { position: static; }
+
+    ion-card.card-md {width: 100%; margin: 0; display: flex; flex-direction: column; justify-content: flex-end; background-color: #fff; }
+    ion-card.card-md .scrim { position: relative; overflow: visible; width: 100%; background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.62) 100%); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.62) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.62) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#9e000000',GradientType=0 ); }
+    ion-card.card-md .scrim .scrim-buttons { display: flex; flex-direction: column; align-items: flex-end; justify-content: flex-end; padding: 12px 16px; }
+    ion-card.card-md .review-screen { display: none; background: rgba(0,0,0,0.4); cursor: default; }
+    ion-card:first-of-type, ion-card.card-md:first-of-type { margin-top: 0; }
+    ion-card.card-md ion-card-header.card-header { border-bottom: none; flex: 1 1 auto; font-family: "Open Sans"; font-size: 20px; font-weight: normal; letter-spacing: normal; line-height: 28px; white-space: normal; }
+    ion-card.card-md .card-header-md { margin: 32px 0 0; padding: 0 16px; color: #fff; }
+    ion-card.card-md .card-content-md { padding-bottom: 8px; font-family: "Open Sans"; }
+    ion-card.card-md .card-content-md > p { margin: 8px 0; color: #fff; font-size: 14px; line-height: 20px; }
+    ion-card.card-md .card-content-md .learn-more { display: block; color: #fff; font-size: 14px; font-weight: 600; line-height: 24px; }
+    ion-card.card-md .card-content-md > .learn-more { display: block; text-align: right; }
+    ion-card.card-md .card-content-md .grid .row .col:last-child { text-align: right; }
+    ion-card.card-md .card-content-md .coming-soon { color: #03a9f4; cursor: default; font-size: 18px; font-weight: 600; line-height: 24px;  }
+
+    ion-card.card-md.community { background: #fff url(../assets/images/cards/responses@2x.jpg) no-repeat center center; background-size: cover; }
+    ion-card.card-md.research { background: #fff url(../assets/images/cards/research@2x.jpg) no-repeat center center; background-size: cover; }
+    ion-card.card-md.profile { background: #fff url(../assets/images/cards/profile@2x.jpg) no-repeat center top; background-size: cover; }
+    ion-card.card-md.connect { background: #fff url(../assets/images/cards/connect@2x.jpg) no-repeat center top; background-size: cover; }
+
+    @media only screen and (device-width:320px), only screen and (device-width:360px) { 
+        .content header h1 { font-size: 24px; }
+        ion-card-header.card-header { font-size: 17px; font-weight: bold; line-height: 22px; }
+        ion-card.card-md .card-content-md > p { font-size: 14px; line-height: 20px; }
+    }
+    @media only screen and (device-width:375px), only screen and (device-width:414px) {
+         .content header h1 { font-size: 28px; }
+        ion-card-header.card-header { font-size: 20px; line-height: 28px; }
+        ion-card.card-md .card-content-md { padding-bottom: 8px; }
+        ion-card.card-md .card-content-md > a { font-size: 14px; }
+    }
+    @media only screen and (device-width:640px), only screen and (device-width:690px) {
+        ion-card-header.card-header { font-size: 32px; line-height: 40px; }
+        ion-card.card-md .card-content-md { padding-bottom: 8px; }
+        ion-card.card-md .card-content-md > a { font-size: 14px; }
+    }
+    /*iPad portrait*/
+    @media only screen and (device-width:768px) {
+        .card-header-md { font-size: 18px; font-weight: normal; line-height: 32px; }
+    }
+    /*iPad Pro portrait, iPad landscape*/
+    @media only screen and (device-width:1024px) {
+        .card-header-md { font-size: 18px; }
+        ion-card.card-md p { font-size: 13px; }
+    }
+    /*iPad Pro landscape*/
+    @media only screen and (device-width:1366px) { }
+    
+    .review-screen { display: none; position: fixed; left: 0; top:0; right: 0; bottom: 0; z-index: 12; width: 100%; height: 100%; background-color: #000; opacity: 0.6; }
+    ion-header.header-md.review { z-index: 0; }
+    ion-content.content-md.review .scroll-content { contain: none; }
+    ion-content.content-md.review .review-screen { display: block; }
+
+    ion-content.content-md.review.review-community #community-column,
+    ion-content.content-md.review.review-research #research-column,
+    ion-content.content-md.review.review-connect #connect-column,
+    ion-content.content-md.review.review-profile #profile-column { position: relative; }
+
+    ion-content.content-md.review.review-community ion-card.card-md.community,
+    ion-content.content-md.review.review-research ion-card.card-md.research,
+    ion-content.content-md.review.review-connect ion-card.card-md.connect,
+    ion-content.content-md.review.review-profile ion-card.card-md.profile { position: relative; z-index: 13; }
+}
+
+.platform-core page-home {
+    .content header h1 { margin-top: 48px; }
+    .content .scroll-content > .grid > .row > .col { padding: 15px; }
+    ion-card.card-md { height: 320px; }
+}
+
+.platform-mobile page-home {
+    ion-content.content-md.review .scroll-content { -webkit-overflow-scrolling: auto; }
+    .content header { height: 80px; background-size: cover; }
+    .content header h1 { margin: 0; }
+    ion-card.card-md { height: 192px; }
+    .card-header-md { margin: 60px 0 0; text-shadow: 1px 1px 1px #333; }
+    ion-card.card-md .card-content-md > .learn-more { display: none; }
+}
+.platform-mobile:not(.platform-tablet) page-home {
+    @media only screen and (orientation: landscape) {
+        ion-card.card-md { height: 240px; }
+        /*ion-card.card-md.community { background-position: center center; }
+        ion-card.card-md.research { background-position: center center; }
+        ion-card.card-md.profile { background-position: center top; }
+        ion-card.card-md.connect { background-position: center top; }
+        */
+    }
+}
+.platform-mobile.platform-tablet page-home {
+    ion-card.card-md { height: 280px; }
+    .card-header-md { margin: 0 0 40px; font-size: 18px; }
+    ion-card.card-md .card-content-md > p { font-size: 13px; line-height: 20px; }
+
+    @media only screen and (orientation: portrait) {
+        ion-card.card-md { height: 240px; }
+    }
+    @media only screen and (orientation: landscape) {
+        ion-card.card-md { height: 280px; }
+    }
+}
+
+ion-app.md.platform-core ion-modal.benefits-review.auto-size .modal-wrapper,
+ion-app.md.platform-tablet  ion-modal.benefits-review.auto-size .modal-wrapper {
+    .ion-page {
+        ion-slide .slide-zoom h1 { margin-top: 0; }
+        ion-footer .toolbar:last-child { padding: 30px 4px; }
+    }
+}
+
+ion-alert.alert-md.review-complete .alert-wrapper {
+    h2.alert-title { color: $cobalt; font-weight: bold; line-height: 32px; }
+    .alert-button-group { padding: 0 48px 64px; justify-content: center; }
+    .alert-button { margin: 0; }
+}
+ion-app.platform-core ion-alert.alert-md.review-complete .alert-wrapper,
+ion-app.platform-tablet ion-alert.alert-md.review-complete .alert-wrapper {
+    width: 560px;
+    .alert-head { padding: 48px; }
+}

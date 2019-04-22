@@ -1,0 +1,80 @@
+<ion-header>
+    <ion-navbar [hideBackButton]="true">
+        <ion-title>Home</ion-title>
+        <ion-buttons right>
+            <button ion-button icon-only menuToggle><ion-icon name="menu"></ion-icon></button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content><!--(ionScrollEnd)="scrolled($event)"-->
+    <header>
+        <h1>Welcome to the Community</h1>
+    </header>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-12 col-sm-12 col-md-6 #colCommunity>
+                <ion-card class="community">
+                    <div class="scrim">
+                        <div class="scrim-content">
+                            <ion-card-header>Review the community summary</ion-card-header>
+                            <ion-card-content>
+                                <p>Compare your responses with other members.</p>
+                            </ion-card-content>
+                        </div>
+                        <div class="scrim-buttons" *ngIf="review && review == 'community'">
+                            <button ion-button small color="secondary">Continue</button>
+                        </div>
+                    </div>
+                </ion-card>
+            </ion-col>
+            <ion-col col-12 col-sm-12 col-md-6 #colResearch>
+                <ion-card class="research">
+                    <div class="scrim">
+                        <div class="scrim-content">
+                            <ion-card-header>Get targeted research briefs</ion-card-header>
+                            <ion-card-content>
+                                <p>View medical research selected just for you based on your profile.</p>
+                            </ion-card-content>
+                        </div>
+                        <div class="scrim-buttons" *ngIf="review && review == 'research'">
+                            <button ion-button small color="secondary">Continue</button>
+                        </div>
+                    </div>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-12 col-sm-12 col-md-6 #colConnect>
+                <ion-card class="connect">
+                    <div class="scrim">
+                        <div class="scrim-content">
+                            <ion-card-header>Find people like you</ion-card-header>
+                            <ion-card-content>
+                                <p>Connect with individuals within the community.</p>
+                            </ion-card-content>
+                        </div>
+                        <div class="scrim-buttons" *ngIf="review && review == 'connect'">
+                            <button ion-button small color="secondary">Continue</button>
+                        </div>
+                    </div>
+                </ion-card>
+            </ion-col>
+            <ion-col col-12 col-sm-12 col-md-6 #colProfile>
+                <ion-card class="profile">
+                    <div class="scrim">
+                        <div class="scrim-content">
+                            <ion-card-header>Share and update your profile</ion-card-header>
+                            <ion-card-content>
+                                <p>Keep your medical provider informed about your experience.</p>
+                            </ion-card-content>
+                        </div>
+                        <div class="scrim-buttons" *ngIf="review && review == 'profile'">
+                            <button ion-button small color="secondary">Continue</button>
+                        </div>
+                    </div>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div class="review-screen"></div>
+</ion-content>

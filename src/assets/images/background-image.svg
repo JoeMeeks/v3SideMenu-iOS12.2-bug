@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280px" height="1048px" viewBox="0 0 1280 1048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_design</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M-8.91329472e-14,732 C216.572946,732 344.510988,679.981041 451.779435,592.832532 C559.047881,505.684024 644.437039,339.117573 766.658342,277.941419 C892.584804,214.9107 1093.33001,281.081142 1280.67186,161.009905 C1280.67186,125.039177 1282,-1 1282,-1 L2.15886154e-13,-1 C2.15886154e-13,-1 -2.20158635e-13,652.106054 -8.91329472e-14,732 Z" id="path-1"></path>
+        <filter x="-1.5%" y="-2.3%" width="103.0%" height="105.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg_design">
+            <rect id="section2BG" fill="#D0E7F2" x="-3" y="34" width="1285" height="2264"></rect>
+            <g id="Path">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#DAEBF2" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

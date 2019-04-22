@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="175px" viewBox="0 0 208 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>airplane</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-30.6%" y="-33.0%" width="161.2%" height="171.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.780392157   0 0 0 0 0.870588235   0 0 0 0 0.91372549  0 0 0 0.446218297 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Email-Verification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EmailSent3-Copy" transform="translate(-689.000000, -136.000000)">
+            <g id="airplane" filter="url(#filter-1)" transform="translate(717.000000, 160.000000)">
+                <polygon id="Path" fill="#94CBE3" points="34.450674 45.6593301 132.363116 1.79166667 98.978654 59.13587 54.3639373 96.75"></polygon>
+                <g fill="#BCE4F5" fill-rule="nonzero" id="Shape">
+                    <path d="M132.363116,0 L0,49.7664798 L40.6310645,62.1909086 L53.3982223,102.128454 L74.2601201,82.4998461 L108.656882,109.291667 L132.363116,0 Z M44.3592922,60.8887723 L119.522423,12.6848561 L57.2911686,69.2824308 L54.8262733,93.6353062 L44.3592922,60.8887723 Z"></path>
+                </g>
+                <g id="crossZass-Copy-3" transform="translate(112.619257, 116.662098) rotate(64.000000) translate(-112.619257, -116.662098) translate(103.553290, 100.537098)" stroke="#1976D2" stroke-linecap="round" stroke-width="1.58881376">
+                    <path d="M0.906596684,0 L0.906596684,7.16666667" id="Line-2"></path>
+                    <path d="M0.906596684,25.0833333 L0.906596684,32.25" id="Line-2-Copy-2"></path>
+                    <path d="M12.6923536,12.5416667 L12.6923536,19.7083333" id="Line-2-Copy-2" transform="translate(13.598950, 16.125000) rotate(-90.000000) translate(-13.598950, -16.125000) "></path>
+                </g>
+                <g id="cross" transform="translate(19.945127, 10.750000)" stroke="#1976D2" stroke-linecap="round" stroke-width="1.45911468">
+                    <path d="M6.76925524,0 L6.76925524,12.0601146" id="Line-2"></path>
+                    <path d="M12.2912519,6.43206114 L0.564104603,6.43206114" id="Line-2-Copy"></path>
+                </g>
+                <ellipse id="Oval" fill="#9C27B0" cx="143.84063" cy="41.8125" rx="8.15937015" ry="8.0625"></ellipse>
+                <ellipse id="Oval-Copy" fill="#32CE80" cx="6.34617679" cy="83.3125" rx="6.34617679" ry="6.27083333"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

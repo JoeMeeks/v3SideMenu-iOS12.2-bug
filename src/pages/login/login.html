@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-navbar [hideBackButton]="true">
+        <ion-title>Ionic Debug</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content [ngClass]="{ 'solid-white': mode == 'bioID' }" [ngSwitch]="mode">
+    <div ion-fixed *ngSwitchDefault class="login-splash animate-switch">
+        <div class="version-info">release {{ appver }}</div>
+    </div>
+    <div *ngSwitchCase="'password'" class="password animate-switch">
+        <ion-grid>
+            <ion-row>
+                <ion-col col-lg-4 col-md-8 col-sm-12 push-lg-4 push-md-2>
+                    <ion-card>
+                        <form #f="ngForm" name="login" class="login" action="javascript:void(0)" (ngSubmit)="submit($event)" novalidate autocomplete="off">
+                            <h1>Sign In</h1>
+                            <p *ngIf="firstLogin">To sign in below, please use the same email address and password that you used to register.</p>
+                            <p *ngIf="returnpath">You must login first to do that. After logging in you will be redirected back to where you were.</p>
+                            <ion-list no-lines>
+                                <ion-item no-padding>
+                                    <ion-label stacked #lblUsername>{{ 'EMAIL' | translate }}</ion-label>
+                                    <ion-input type="email" name="username" [(ngModel)]="user.username.value" [pattern]="ui.regex.email" autocapitalize="off" autocorrect="off" spellcheck="false" tabindex="1"></ion-input>
+                                </ion-item>
+                                <ion-item [ngStyle]="{ 'visibility': user.username.valid ? 'hidden' : 'visible' }" no-padding class="validation-message">{{user.username.error}}</ion-item>
+                                <ion-item no-padding>
+                                    <ion-label stacked #lblPassword>{{ 'PASSWORD' | translate }}</ion-label>
+                                    <ion-input type="password" name="password" [(ngModel)]="user.password.value" [pattern]="ui.regex.password" tabindex="1"></ion-input>
+                                </ion-item>
+                                <ion-item *ngIf="{ 'visibility': user.password.valid ? 'hidden' : 'visible' }" no-padding class="validation-message">{{user.password.error}}</ion-item>
+                                <ion-buttons>
+                                    <button id="btnSignIn" #btnSubmit type="submit" ion-button full color="secondary" tabindex="3">Sign In</button>
+                                </ion-buttons>
+                            </ion-list>
+                        </form>
+                    </ion-card>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+        <div *ngIf="ui.mobile" class="version-info">release {{ appver }}</div>
+    </div>
+</ion-content>

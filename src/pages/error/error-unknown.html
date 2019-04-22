@@ -1,0 +1,40 @@
+﻿<ion-header>
+    <ion-navbar [hideBackButton]="ui.desktop">
+        <ion-buttons left>
+            <button ion-button class="logo" (click)="ui.back('start')"></button>
+        </ion-buttons>
+        <ion-buttons right *ngIf="ui.desktop">
+            <button ion-button clear no-padding color="neutral" class="help" (click)="help.show()">HELP?</button>
+        </ion-buttons>
+        <ion-buttons right *ngIf="ui.mobile">
+            <button ion-button icon-only menuToggle><ion-icon name="menu"></ion-icon></button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <div *ngIf="resetSuccess == true" class="bar bar-header bar-balanced success-bar">
+        <h1 class="success-bar-text"> {{ 'SUCCESSFUL_RESET_PASSWORD' | translate }}</h1>
+    </div>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-lg-6 col-md-8 col-sm-12 push-lg-3 push-md-2 style="margin-top: 35px;">
+                <ion-card style="padding-top: 50px; padding-bottom: 100px;">
+                    <div class="error-symbol-container">
+                        <img src="assets/images/icons/error-symbol.svg" alt="" style="max-width: 168px;" />
+                    </div>
+                    <div class="error-title">
+                        <p>
+                            We're sorry, something has gone wrong.
+                        </p>
+                    </div>
+                    <p text-center style="margin-top: 20px;">
+                        We are working to resolve the problem as soon as possible. Please try again later.
+                    </p>
+                    <div style="margin-top: 20px; text-align: center;">
+                        <button type="button" ion-button text-center (click)="onGoBackClicked();" color="secondary-inverse">GO BACK</button>
+                    </div>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

@@ -1,0 +1,11 @@
+page-about {
+    ion-card[full-page] ion-card-content { padding-bottom: 100px; }
+}
+
+ion-app.platform-mobile page-about {
+    .content-description svg { display: block; width: 100% !important; max-width: 160px; margin: auto !important; padding: 0 !important; }
+}
+
+ion-app.platform-mobile page-about {
+    footer { display: block; margin-bottom: env(safe-area-inset-bottom); }
+}
