@@ -130,8 +130,8 @@
             "cordova-plugin-google-analytics": {},
             "cordova-plugin-inappbrowser": {},
             "cordova-plugin-ionic": {
-                "APP_ID": "35a242d2",
-                "CHANNEL_NAME": "Debug",
+                "APP_ID": "28adcae0",
+                "CHANNEL_NAME": "Master",
                 "MAX_STORE": "2",
                 "MIN_BACKGROUND_DURATION": "30",
                 "UPDATE_API": "https://api.ionicjs.com",

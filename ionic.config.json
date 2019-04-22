@@ -1,7 +1,7 @@
 {
-    "name": "adhoc",
+    "name": "ionic",
     "type": "ionic-angular",
-    "id": "35a242d2",
+    "id": "28adcae0",
     "integrations": {
         "cordova": {
             "enabled": true
