@@ -69,14 +69,11 @@
     <Content Include="resources\ios\icon\icon.png" />
     <Content Include="resources\ios\splash\Default%402x~iphone.png" />
     <Content Include="resources\ios\splash\Default%402x~universal~anyany.png" />
-    <Content Include="resources\ios\splash\Default-2436h.png" />
     <Content Include="resources\ios\splash\Default-568h%402x~iphone.png" />
     <Content Include="resources\ios\splash\Default-667h.png" />
     <Content Include="resources\ios\splash\Default-736h.png" />
     <Content Include="resources\ios\splash\Default-Landscape%402x~ipad.png" />
     <Content Include="resources\ios\splash\Default-Landscape%40~ipadpro.png" />
-    <Content Include="resources\ios\splash\Default-Landscape-2436h.png" />
-    <Content Include="resources\ios\splash\Default-Landscape-667h.png" />
     <Content Include="resources\ios\splash\Default-Landscape-736h.png" />
     <Content Include="resources\ios\splash\Default-Landscape~ipad.png" />
     <Content Include="resources\ios\splash\Default-Portrait%402x~ipad.png" />
